@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\eng\Versions.props" />
+
+  <PropertyGroup>
+	<TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\..\.keys\GrappDefaultKey.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AssemblyName>Corex.Db</AssemblyName>
+    <RootNamespace>Corex.Db</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <PackageTags>Database, ADO.NET, Library</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/adrianosepe/Corex</PackageProjectUrl>
+    <PackageIcon> </PackageIcon>
+    <RepositoryUrl>https://github.com/adrianosepe/Corex</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageReleaseNotes>Full GrappTec dependencies published to NuGet.</PackageReleaseNotes>
+    <Version>1.0.0</Version>
+    <Authors>Adriano Sepe</Authors>
+    <Company>GrappTec</Company>
+    <Description>General purpose data access library.</Description>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2023.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Corex.Exceptions\Corex.Exceptions.csproj" />
+    <ProjectReference Include="..\Corex.Extensions\Corex.Extensions.csproj" />
+    <ProjectReference Include="..\Corex.Library\Corex.Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="DbAccess.Count.cs">
+      <DependentUpon>DbAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Update="DbAccess.ProcReturn.cs">
+      <DependentUpon>DbAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Update="DbAccess.ReturnType.cs">
+      <DependentUpon>DbAccess.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

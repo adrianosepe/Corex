@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\eng\Versions.props" />
+
+  <PropertyGroup>
+	<TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\..\.keys\GrappDefaultKey.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AssemblyName>Corex.Db.Work</AssemblyName>
+    <RootNamespace>Corex.Db.Work</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <PackageTags>DataTable, DataSet, Library</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/adrianosepe/Corex</PackageProjectUrl>
+    <PackageIcon> </PackageIcon>
+    <RepositoryUrl>https://github.com/adrianosepe/Corex</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageReleaseNotes>Full GrappTec dependencies published to NuGet.</PackageReleaseNotes>
+    <Version>1.0.0</Version>
+    <Authors>Adriano Sepe</Authors>
+    <Company>GrappTec</Company>
+    <Description>General purpose Data Table easily secure types.</Description>
+	<Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Corex.Extensions\Corex.Extensions.csproj" />
+    <ProjectReference Include="..\Corex.Library\Corex.Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2023.2.0" />
+    <PackageReference Include="System.Text.Json" Version="7.0.3" />
+  </ItemGroup>
+
+</Project>

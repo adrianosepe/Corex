@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\eng\Versions.props" />
+
+  <PropertyGroup>
+	<TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\..\.keys\GrappDefaultKey.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AssemblyName>Corex.Db.SqlServer</AssemblyName>
+    <RootNamespace>Corex.Db.SqlServer</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <PackageTags>Exception, Flow Exception, Library</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/adrianosepe/Corex</PackageProjectUrl>
+    <PackageIcon> </PackageIcon>
+    <RepositoryUrl>https://github.com/adrianosepe/Corex</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageReleaseNotes>Full GrappTec dependencies published to NuGet.</PackageReleaseNotes>
+    <Version>1.0.0</Version>
+    <Authors>Adriano Sepe</Authors>
+    <Company>GrappTec</Company>
+    <Description>General purpose data access library for Microsoft SQL Server.</Description>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Corex.Db.SqlServer.csproj.DotSettings" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2023.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Corex.Db\Corex.Db.csproj" />
+    <ProjectReference Include="..\Corex.Library\Corex.Library.csproj" />
+  </ItemGroup>
+
+</Project>
