@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+	<title>Aplicação</title>
+	<style type="text/css">
+        
+		.Topico1 {
+			background-color: #FDE4D0;
+			border: 1px solid #F9B074;
+			border-spacing: 0;
+			color: #000000;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: medium;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			table-layout: fixed;
+		}
+
+		.Normal {
+			background-color: #FFFFFF;
+			border: 1px solid #F9B074;
+			color: #000000;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: small;
+			font-weight: normal;
+		}
+
+		.ExceptionRow {
+			background-color: #FDE4D0;
+			border: 1px solid #F9B074;
+			color: #000000;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: small;
+			font-weight: normal;
+		}
+
+		.Table {
+			border: 0 solid #F9B074;
+			border-collapse: collapse;
+			border-spacing: 0;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+
+		.Topico3 {
+			background-color: #C0C0C0;
+			border: 1px solid #000000;
+			border-spacing: 0;
+			color: #FFFFFF;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: large;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			table-layout: fixed;
+		}
+
+		.Topico2 {
+			background-color: #C0C0C0;
+			border: 1px solid #000000;
+			border-spacing: 0;
+			color: #000000;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: medium;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			table-layout: fixed;
+		}
+
+		.Normal2 {
+			background-color: #FFFFFF;
+			border: 1px solid #000000;
+			color: #000000;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: small;
+			font-weight: normal;
+		}
+
+		.Table2 {
+			border: 0 solid #FFFFFF;
+			border-collapse: collapse;
+			border-spacing: 0;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+	</style>
+	<script language="javascript">
+		var DefaultMinImageSource =
+			"http://arquivos.onixsat.com.br/rastreamento/enterprise/resource/common/bullet_toggle_minus.png";
+		var DefaultPlusImageSource =
+			"http://arquivos.onixsat.com.br/rastreamento/enterprise/resource/common/bullet_toggle_plus.png";
+
+		function toggle5(showHideDiv, switchImgTag) {
+			var ele = document.getElementById(showHideDiv);
+			var imageEle = document.getElementById(switchImgTag);
+
+			if (ele.style.display !== "none") {
+				ele.style.display = "none";
+				imageEle.innerHTML = '<img src="' + DefaultPlusImageSource + '">';
+			} else {
+				ele.style.display = "block";
+				imageEle.innerHTML = '<img src="' + DefaultMinImageSource + '">';
+			}
+		}
+
+		function GetDefaultImage() {
+			return DefaultMinImageSource;
+		}
+	</script>
+</head>
+<body>
+<table class="Table">
+	<tbody>
+	<tr>
+		<td class="Topico1">
+			Aplicação
+		</td>
+	</tr>
+	<tr>
+		<td class="Normal">
+            <!-- ReSharper disable Asp.Entity -->
+            <b>Nome:&nbsp</b>{NAME}
+            <!-- ReSharper restore Asp.Entity -->
+        </td>
+	</tr>
+	<tr>
+		<td class="Normal">
+            <!-- ReSharper disable Asp.Entity -->
+            <b>Versão:&nbsp</b>{VERSION}
+            <!-- ReSharper restore Asp.Entity -->
+        </td>
+	</tr>
+	<tr>
+		<td class="Topico1">
+			Máquina
+		</td>
+	</tr>
+	<tr>
+		<td class="Normal">
+			{MACHINE}
+		</td>
+	</tr>
+	<tr>
+		<td class="Topico1">
+			Mensagem de Erro
+		</td>
+	</tr>
+	<tr>
+		<td class="Normal">
+			{EXMESSAGE}
+		</td>
+	</tr>
+	{EXCEPTIONS}
+	<tr>
+		<td class="Topico1">
+			Environment Stack Trace
+		</td>
+	</tr>
+	<tr>
+		<td class="Normal">
+			{STACKTRACE}
+		</td>
+	</tr>
+	</tbody>
+</table>
+</body>
+</html>

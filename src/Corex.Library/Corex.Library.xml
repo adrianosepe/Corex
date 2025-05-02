@@ -1,0 +1,992 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Corex.Library</name>
+    </assembly>
+    <members>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.KeyCode">
+            <summary>The bitmask to extract a key code from a key value.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Modifiers">
+            <summary>The bitmask to extract modifiers from a key value.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.None">
+            <summary>No key pressed.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.LButton">
+            <summary>The left mouse button.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.RButton">
+            <summary>The right mouse button.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Cancel">
+            <summary>The CANCEL key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.MButton">
+            <summary>The middle mouse button (three-button mouse).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.XButton1">
+            <summary>The first x mouse button (five-button mouse).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.XButton2">
+            <summary>The second x mouse button (five-button mouse).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Back">
+            <summary>The BACKSPACE key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Tab">
+            <summary>The TAB key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.LineFeed">
+            <summary>The LINEFEED key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Clear">
+            <summary>The CLEAR key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Return">
+            <summary>The RETURN key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Enter">
+            <summary>The ENTER key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.ShiftKey">
+            <summary>The SHIFT key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.ControlKey">
+            <summary>The CTRL key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Menu">
+            <summary>The ALT key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Pause">
+            <summary>The PAUSE key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Capital">
+            <summary>The CAPS LOCK key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.CapsLock">
+            <summary>The CAPS LOCK key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.KanaMode">
+            <summary>The IME Kana mode key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.HanguelMode">
+            <summary>The IME Hanguel mode key. (maintained for compatibility; use <see langword="HangulMode" />) </summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.HangulMode">
+            <summary>The IME Hangul mode key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.JunjaMode">
+            <summary>The IME Junja mode key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.FinalMode">
+            <summary>The IME final mode key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.HanjaMode">
+            <summary>The IME Hanja mode key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.KanjiMode">
+            <summary>The IME Kanji mode key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Escape">
+            <summary>The ESC key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.ImeConvert">
+            <summary>The IME convert key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.ImeNonconvert">
+            <summary>The IME nonconvert key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.ImeAccept">
+            <summary>The IME accept key, replaces <see cref="F:System.Windows.Forms.Keys.IMEAceept" />.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.ImeAceept">
+            <summary>The IME accept key. Obsolete, use <see cref="F:System.Windows.Forms.Keys.IMEAccept" /> instead.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.ImeModeChange">
+            <summary>The IME mode change key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Space">
+            <summary>The SPACEBAR key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Prior">
+            <summary>The PAGE UP key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.PageUp">
+            <summary>The PAGE UP key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Next">
+            <summary>The PAGE DOWN key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.PageDown">
+            <summary>The PAGE DOWN key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.End">
+            <summary>The END key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Home">
+            <summary>The HOME key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Left">
+            <summary>The LEFT ARROW key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Up">
+            <summary>The UP ARROW key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Right">
+            <summary>The RIGHT ARROW key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Down">
+            <summary>The DOWN ARROW key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Select">
+            <summary>The SELECT key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Print">
+            <summary>The PRINT key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Execute">
+            <summary>The EXECUTE key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Snapshot">
+            <summary>The PRINT SCREEN key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.PrintScreen">
+            <summary>The PRINT SCREEN key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Insert">
+            <summary>The INS key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Delete">
+            <summary>The DEL key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Help">
+            <summary>The HELP key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.D0">
+            <summary>The 0 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.D1">
+            <summary>The 1 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.D2">
+            <summary>The 2 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.D3">
+            <summary>The 3 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.D4">
+            <summary>The 4 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.D5">
+            <summary>The 5 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.D6">
+            <summary>The 6 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.D7">
+            <summary>The 7 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.D8">
+            <summary>The 8 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.D9">
+            <summary>The 9 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.A">
+            <summary>The A key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.B">
+            <summary>The B key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.C">
+            <summary>The C key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.D">
+            <summary>The D key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.E">
+            <summary>The E key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F">
+            <summary>The F key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.G">
+            <summary>The G key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.H">
+            <summary>The H key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.I">
+            <summary>The I key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.J">
+            <summary>The J key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.K">
+            <summary>The K key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.L">
+            <summary>The L key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.M">
+            <summary>The M key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.N">
+            <summary>The N key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.O">
+            <summary>The O key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.P">
+            <summary>The P key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Q">
+            <summary>The Q key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.R">
+            <summary>The R key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.S">
+            <summary>The S key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.T">
+            <summary>The T key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.U">
+            <summary>The U key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.V">
+            <summary>The V key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.W">
+            <summary>The W key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.X">
+            <summary>The X key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Y">
+            <summary>The Y key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Z">
+            <summary>The Z key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.LWin">
+            <summary>The left Windows logo key (Microsoft Natural Keyboard).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.RWin">
+            <summary>The right Windows logo key (Microsoft Natural Keyboard).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Apps">
+            <summary>The application key (Microsoft Natural Keyboard).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Sleep">
+            <summary>The computer sleep key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.NumPad0">
+            <summary>The 0 key on the numeric keypad.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.NumPad1">
+            <summary>The 1 key on the numeric keypad.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.NumPad2">
+            <summary>The 2 key on the numeric keypad.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.NumPad3">
+            <summary>The 3 key on the numeric keypad.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.NumPad4">
+            <summary>The 4 key on the numeric keypad.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.NumPad5">
+            <summary>The 5 key on the numeric keypad.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.NumPad6">
+            <summary>The 6 key on the numeric keypad.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.NumPad7">
+            <summary>The 7 key on the numeric keypad.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.NumPad8">
+            <summary>The 8 key on the numeric keypad.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.NumPad9">
+            <summary>The 9 key on the numeric keypad.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Multiply">
+            <summary>The multiply key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Add">
+            <summary>The add key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Separator">
+            <summary>The separator key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Subtract">
+            <summary>The subtract key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Decimal">
+            <summary>The decimal key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Divide">
+            <summary>The divide key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F1">
+            <summary>The F1 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F2">
+            <summary>The F2 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F3">
+            <summary>The F3 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F4">
+            <summary>The F4 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F5">
+            <summary>The F5 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F6">
+            <summary>The F6 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F7">
+            <summary>The F7 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F8">
+            <summary>The F8 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F9">
+            <summary>The F9 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F10">
+            <summary>The F10 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F11">
+            <summary>The F11 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F12">
+            <summary>The F12 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F13">
+            <summary>The F13 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F14">
+            <summary>The F14 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F15">
+            <summary>The F15 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F16">
+            <summary>The F16 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F17">
+            <summary>The F17 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F18">
+            <summary>The F18 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F19">
+            <summary>The F19 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F20">
+            <summary>The F20 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F21">
+            <summary>The F21 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F22">
+            <summary>The F22 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F23">
+            <summary>The F23 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.F24">
+            <summary>The F24 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.NumLock">
+            <summary>The NUM LOCK key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Scroll">
+            <summary>The SCROLL LOCK key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.LShiftKey">
+            <summary>The left SHIFT key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.RShiftKey">
+            <summary>The right SHIFT key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.LControlKey">
+            <summary>The left CTRL key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.RControlKey">
+            <summary>The right CTRL key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.LMenu">
+            <summary>The left ALT key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.RMenu">
+            <summary>The right ALT key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.BrowserBack">
+            <summary>The browser back key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.BrowserForward">
+            <summary>The browser forward key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.BrowserRefresh">
+            <summary>The browser refresh key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.BrowserStop">
+            <summary>The browser stop key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.BrowserSearch">
+            <summary>The browser search key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.BrowserFavorites">
+            <summary>The browser favorites key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.BrowserHome">
+            <summary>The browser home key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.VolumeMute">
+            <summary>The volume mute key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.VolumeDown">
+            <summary>The volume down key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.VolumeUp">
+            <summary>The volume up key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.MediaNextTrack">
+            <summary>The media next track key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.MediaPreviousTrack">
+            <summary>The media previous track key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.MediaStop">
+            <summary>The media Stop key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.MediaPlayPause">
+            <summary>The media play pause key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.LaunchMail">
+            <summary>The launch mail key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.SelectMedia">
+            <summary>The select media key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.LaunchApplication1">
+            <summary>The start application one key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.LaunchApplication2">
+            <summary>The start application two key (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.OemSemicolon">
+            <summary>The OEM Semicolon key on a US standard keyboard (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Oem1">
+            <summary>The OEM 1 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Oemplus">
+            <summary>The OEM plus key on any country/region keyboard (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Oemcomma">
+            <summary>The OEM comma key on any country/region keyboard (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.OemMinus">
+            <summary>The OEM minus key on any country/region keyboard (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.OemPeriod">
+            <summary>The OEM period key on any country/region keyboard (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.OemQuestion">
+            <summary>The OEM question mark key on a US standard keyboard (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Oem2">
+            <summary>The OEM 2 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Oemtilde">
+            <summary>The OEM tilde key on a US standard keyboard (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Oem3">
+            <summary>The OEM 3 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.OemOpenBrackets">
+            <summary>The OEM open bracket key on a US standard keyboard (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Oem4">
+            <summary>The OEM 4 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.OemPipe">
+            <summary>The OEM pipe key on a US standard keyboard (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Oem5">
+            <summary>The OEM 5 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.OemCloseBrackets">
+            <summary>The OEM close bracket key on a US standard keyboard (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Oem6">
+            <summary>The OEM 6 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.OemQuotes">
+            <summary>The OEM singled/double quote key on a US standard keyboard (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Oem7">
+            <summary>The OEM 7 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Oem8">
+            <summary>The OEM 8 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.OemBackslash">
+            <summary>The OEM angle bracket or backslash key on the RT 102 key keyboard (Windows 2000 or later).</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Oem102">
+            <summary>The OEM 102 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.ProcessKey">
+            <summary>The PROCESS KEY key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Packet">
+            <summary>
+                Used to pass Unicode characters as if they were keystrokes. The Packet key value is the low word of a 32-bit
+                virtual-key value used for non-keyboard input methods.
+            </summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Attn">
+            <summary>The ATTN key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Crsel">
+            <summary>The CRSEL key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Exsel">
+            <summary>The EXSEL key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.EraseEof">
+            <summary>The ERASE EOF key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Play">
+            <summary>The PLAY key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Zoom">
+            <summary>The ZOOM key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.NoName">
+            <summary>A constant reserved for future use.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Pa1">
+            <summary>The PA1 key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.OemClear">
+            <summary>The CLEAR key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Shift">
+            <summary>The SHIFT modifier key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Control">
+            <summary>The CTRL modifier key.</summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Interact.Enums.EKey.Alt">
+            <summary>The ALT modifier key.</summary>
+        </member>
+        <member name="T:Corex.Library.ComponentModel.Model.Svc.ResultInfo">
+            <summary>
+            Detalhe associado a um resultado
+            </summary>
+        </member>
+        <member name="P:Corex.Library.ComponentModel.Model.Svc.ResultInfo.Key">
+            <summary>
+            Chave que orienta a interpretação da mensagem
+            </summary>
+        </member>
+        <member name="P:Corex.Library.ComponentModel.Model.Svc.ResultInfo.Message">
+            <summary>
+            Mensagem
+            </summary>
+        </member>
+        <member name="T:Corex.Library.ComponentModel.Model.Svc.TypedResult`1">
+            <summary>
+            Estrutura que representa um resultado
+            </summary>
+            <typeparam name="TData"></typeparam>
+        </member>
+        <member name="P:Corex.Library.ComponentModel.Model.Svc.TypedResult`1.Data">
+            <summary>
+            Dado produzido e associado ao resultado
+            </summary>
+        </member>
+        <member name="P:Corex.Library.ComponentModel.Model.Svc.TypedResult`1.Details">
+            <summary>
+            Detalhes a respeito do resultado
+            </summary>
+        </member>
+        <member name="P:Corex.Library.ComponentModel.Model.Svc.TypedResult`1.Message">
+            <summary>
+            Mensagem associada ao resultado
+            </summary>
+        </member>
+        <member name="P:Corex.Library.ComponentModel.Model.Svc.TypedResult`1.Ok">
+            <summary>
+            Resultado está Ok?
+            </summary>
+        </member>
+        <member name="P:Corex.Library.ComponentModel.Model.Svc.TypedResult`1.Status">
+            <summary>
+            Status associado ao resultado
+            </summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Validation.Annotations.TypedNumber.XRangeAttribute.EPreSetBehavior.CurrencyGreaterThanZeroAndMaxDecimal4Dig">
+            <summary>
+                Valores 4dig maior que zero ate maximo decimal valido (restrito em 9999999999.9999M)
+            </summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Validation.Annotations.TypedNumber.XRangeAttribute.EPreSetBehavior.CurrencyGreaterThanZeroAndMaxDecimal2Dig">
+            <summary>
+                Valores 2dig maior que zero ate maximo decimal valido (restrito em 9999999999.99M)
+            </summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Validation.Annotations.TypedNumber.XRangeAttribute.EPreSetBehavior.PercentGreaterThanZeroAnd99Int">
+            <summary>
+                Percentual int entre 1 e 99%
+            </summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Validation.Annotations.TypedNumber.XRangeAttribute.EPreSetBehavior.PercentMax1002Dig">
+            <summary>
+                Percentual 2Dig margens de descontos entre 0.00 e 99.99%
+            </summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Validation.Annotations.TypedNumber.XRangeAttribute.EPreSetBehavior.PercentMax10002Dig">
+            <summary>
+                Percentual 2Dig margens de descontos entre 0.00 e 99.99%
+            </summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Validation.Annotations.TypedNumber.XRangeAttribute.EPreSetBehavior.PercentMinus99Until999Decimal2Dig">
+            <summary>
+                Percentual 2Dig margens de lucro entre -99.00 e 999.99%
+            </summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Validation.Annotations.TypedNumber.XRangeAttribute.EPreSetBehavior.IntegerGreatThanZero">
+            <summary>
+                Inteiro maior que zero
+            </summary>
+        </member>
+        <member name="F:Corex.Library.ComponentModel.Model.Validation.Annotations.TypedNumber.XRangeAttribute.EPreSetBehavior.IntegerGreatOrEqualZero">
+            <summary>
+                Inteiro maior ou igual a zero
+            </summary>
+        </member>
+        <member name="M:Corex.Library.ComponentModel.Model.Validation.ValidationDataFormats.IsLoginPatternLength6To60(System.String)">
+            <summary>
+                Verifica se o login está no formato válido,
+                aceitá login de tamanho entre 6-60 caracteres
+            </summary>
+            <param name="input">Login</param>
+            <returns>
+                <c>true</c> if [is login pattern (6-60 chars) valid format] [the specified input]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Corex.Library.XHelper.DisplayFormat.Geo.ConvertDecimalToHoursMinutesSeconds(System.Double,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Convert decimal to hours, minutes and seconds
+            </summary>
+            <param name="graus">Decimal of graus</param>
+            <param name="g">Extracted graus</param>
+            <param name="m">Extracted minutes</param>
+            <param name="s">Extracted seconds</param>
+        </member>
+        <member name="M:Corex.Library.XHelper.Strings.UnconcatString(System.String)">
+            <summary>
+                Adiciona espaços antes dos caracteres capitais de uma string
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Corex.Library.Properties.DbEnums">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EFileExtension_Any">
+            <summary>
+              Looks up a localized string similar to Todos.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EFileExtension_Csv">
+            <summary>
+              Looks up a localized string similar to Arquivos Csv (Valores Separados por Vírgula) (*.csv).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EFileExtension_Doc">
+            <summary>
+              Looks up a localized string similar to Documento do Word (*.doc).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EFileExtension_Docx">
+            <summary>
+              Looks up a localized string similar to Documento do Word (*.docx).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EFileExtension_Eml">
+            <summary>
+              Looks up a localized string similar to Arquivos de E-mail (*.eml).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EFileExtension_MultiExtensions">
+            <summary>
+              Looks up a localized string similar to Múltiplas Extensões.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EFileExtension_Pdf">
+            <summary>
+              Looks up a localized string similar to Formato de Documento Portável (*.pdf).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EFileExtension_Png">
+            <summary>
+              Looks up a localized string similar to Image Portável (*.png).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EFileExtension_Txt">
+            <summary>
+              Looks up a localized string similar to Documento de Texto (*.txt).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EFileExtension_Unknown">
+            <summary>
+              Looks up a localized string similar to Desconhecido.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EFileExtension_Xls">
+            <summary>
+              Looks up a localized string similar to Planilhas do Excel (*.xls).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EFileExtension_Xlsx">
+            <summary>
+              Looks up a localized string similar to Planilhas do Excel (*.xlsx).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EFileExtension_Xml">
+            <summary>
+              Looks up a localized string similar to Arquivos de Marcação (*.xml).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EModoOperacao_Brasil">
+            <summary>
+              Looks up a localized string similar to Brasil.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EModoOperacao_Paraguai">
+            <summary>
+              Looks up a localized string similar to Paraguai.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.ETextAlignment_Center">
+            <summary>
+              Looks up a localized string similar to Centro.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.ETextAlignment_Left">
+            <summary>
+              Looks up a localized string similar to Esquerda.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.ETextAlignment_Right">
+            <summary>
+              Looks up a localized string similar to Direita.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EValidationKind_Error">
+            <summary>
+              Looks up a localized string similar to Erro.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbEnums.EValidationKind_Warning">
+            <summary>
+              Looks up a localized string similar to Alerta.
+            </summary>
+        </member>
+        <member name="T:Corex.Library.Properties.DbMessages">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.Certificate_ShowSelectionUIFromValidCertificates_Certificados_válidos_">
+            <summary>
+              Looks up a localized string similar to Certificados válidos:.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.Certificate_ShowSelectionUIFromValidCertificates_Selecione_o_certificado_que_deseja_utilizar">
+            <summary>
+              Looks up a localized string similar to Selecione o certificado que deseja utilizar.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.Certificate_ShowSelectionUIFromValidCertificates_Selecione_os_certificados_que_deseja_utilizar">
+            <summary>
+              Looks up a localized string similar to Selecione os certificados que deseja utilizar.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.Date_Format1">
+            <summary>
+              Looks up a localized string similar to {0} hora(s) {1} minuto(s) e {2} segundo(s).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.Date_Format2">
+            <summary>
+              Looks up a localized string similar to {0} hora(s) e {1} minuto(s).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.Date_Format3">
+            <summary>
+              Looks up a localized string similar to {0} hora(s) e {1} segundo(s).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.Date_Format4">
+            <summary>
+              Looks up a localized string similar to {0} hora(s).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.Date_Format5">
+            <summary>
+              Looks up a localized string similar to {0} minuto(s) e {1} segundo(s).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.Date_Format6">
+            <summary>
+              Looks up a localized string similar to {0} minuto(s).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.Date_Format7">
+            <summary>
+              Looks up a localized string similar to {0} segundo(s).
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.DateRange_ToString__Não_Definido_">
+            <summary>
+              Looks up a localized string similar to [Não Definido].
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.DateRange_ToString_maior_ou_igual__0__e_menor_ou_gual__1_">
+            <summary>
+              Looks up a localized string similar to maior ou igual {0} e menor ou gual {1}.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.DateRange_ToString_maior_ou_igual_a__0_">
+            <summary>
+              Looks up a localized string similar to maior ou igual a {0}.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.DateRange_ToString_menor_ou_igual_a__0_">
+            <summary>
+              Looks up a localized string similar to menor ou igual a {0}.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.Geo_FormatDistance_ZeroMeter">
+            <summary>
+              Looks up a localized string similar to 0 metro.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XDateRangeAttribute_IsValid_O_período_informado_está_incompleto_">
+            <summary>
+              Looks up a localized string similar to O período informado está incompleto..
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XDateRangeAttribute_IsValid_O_período_máximo_deve_ser_de__0__dia_s__">
+            <summary>
+              Looks up a localized string similar to O período máximo deve ser de {0} dia(s)..
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XDateRangeAttribute_IsValid_O_período_mínimo_deve_ser_de__0__dia_s__">
+            <summary>
+              Looks up a localized string similar to O período mínimo deve ser de {0} dia(s)..
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XDateRangeAttribute_IsValid_Período_informado_é_inválido_">
+            <summary>
+              Looks up a localized string similar to Período informado é inválido..
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XDateRangeAttribute_IsValid_Período_informado_é_inválido_1">
+            <summary>
+              Looks up a localized string similar to Período informado é inválido..
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XDateTimeAttribute_XDateTimeAttribute_O_campo__0__deve_ser_informado">
+            <summary>
+              Looks up a localized string similar to O campo {0} deve ser informado.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XForeignKeyAttribute_XForeignKeyAttribute_O_campo__0__deve_ser_informado_">
+            <summary>
+              Looks up a localized string similar to O campo {0} deve ser informado..
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XImageAttribute_XImageAttribute_A_imagem_associada_ao_campo__0__não_pode_ser_maior_que__1__MB_">
+            <summary>
+              Looks up a localized string similar to A imagem associada ao campo {0} não pode ser maior que {1} MB..
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XMaxLengthAttribute_Message">
+            <summary>
+              Looks up a localized string similar to O campo {0} não pode exceder {1} caracter(es)..
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XNotEmptyAttribute_XNotEmptyAttribute_O_campo__0__não_pode_ficar_vazio_">
+            <summary>
+              Looks up a localized string similar to O campo {0} não pode ficar vazio..
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XRangeAttribute_CreateErrorMessage_O_campo__0__permite_um_valor_entre__1__e__2_">
+            <summary>
+              Looks up a localized string similar to O campo {0} permite um valor entre {1} e {2}.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XRangeAttribute_CreateErrorMessage_O_campo__0__permite_um_valor_máximo__2_">
+            <summary>
+              Looks up a localized string similar to O campo {0} permite um valor máximo {2}.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XRangeAttribute_CreateErrorMessage_O_campo__0__permite_um_valor_mínimo__1_">
+            <summary>
+              Looks up a localized string similar to O campo {0} permite um valor mínimo {1}.
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XRequiredAttribute_XRequiredAttribute_O_campo__0__deve_ser_informado_">
+            <summary>
+              Looks up a localized string similar to O campo {0} deve ser informado..
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XRucOrCiAttribute_XRucOrCiAttribute_O_campo__0__não_possui_um_RUC_válido_">
+            <summary>
+              Looks up a localized string similar to O campo {0} não possui um RUC válido..
+            </summary>
+        </member>
+        <member name="P:Corex.Library.Properties.DbMessages.XTypeDescriptor_Inactive">
+            <summary>
+              Looks up a localized string similar to INATIVO.
+            </summary>
+        </member>
+    </members>
+</doc>
